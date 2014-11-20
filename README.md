@@ -34,7 +34,7 @@ The unofficial vendor for extending Symfony2 functionality.
   bundle is currently looking for a new active maintainer.
 - [FOSCommentBundle](https://github.com/FriendsOfSymfony/FOSCommentBundle), adds support for a threaded comment system.
   It gets a mention because it could be useful in a future project, but just like the messaging bundle it is currently
-  looking for an active maintainer.
+  looking for an active maintainer. Alternatively, use external providers such as [Disqus](https://disqus.com/websites).
 - [FOSRestBundle](https://github.com/FriendsOfSymfony/FOSRestBundle), one of the best libraries for creating RESTful
   APIs in Symfony2. This bundle will be wasted if you don't know the importance of REST when building APIs though,
   therefore I suggest reading [Building APIs You Won't Hate](https://leanpub.com/build-apis-you-wont-hate) by [Phil
