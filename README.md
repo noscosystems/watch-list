@@ -10,9 +10,10 @@ to.
   document section of that vendor.
 - If a project is a bundle acting as an adapter for another library then just list the bundle project.
 - Do not list any bundles that are included by default in the Symfony
-  [standard edition](https://github.com/symfony/symfony-standard).
+  [standard edition](https://github.com/symfony/symfony-standard "A fully-functional Symfony2 application to be used as
+  the skeleton for new applications").
 
-## [Doctrine Project](http://www.doctrine-project.org)
+## [Doctrine Project](http://www.doctrine-project.org "Home to several PHP libraries primarily focused on database storage and object mapping")
 
 The number one vendor in the PHP community for libraries that deal with data; persistence, specification, cache, etc.
 Doctrine is pretty well integrated into the Symfony standard edition already, however the following bundles are always
@@ -24,36 +25,42 @@ helpful for dealing with database development:
   programmatically. This data can be used for testing or could be the initial data required for the application to run
   smoothly, defined in code just like database structure is defined in migrations.
 
-## [Friends of Symfony](http://friendsofsymfony.github.io)
+## [Friends of Symfony](http://friendsofsymfony.github.io "Vendor namespace for people maintaining and collaborating several popular bundles")
 
 The unofficial vendor for extending Symfony2 functionality.
 
-- [FOSUserBundle](), the complete back-end for user functionality (login, registration, profiles, etc).
-- [FOSMessageBundle](https://github.com/FriendsOfSymfony/FOSMessageBundle), messaging component featuring threaded
-  conversations, spam detection, soft-deletion, message permissions, user inbox, etc. The only downside is that this
-  bundle is currently looking for a new active maintainer.
-- [FOSCommentBundle](https://github.com/FriendsOfSymfony/FOSCommentBundle), adds support for a threaded comment system.
-  It gets a mention because it could be useful in a future project, but just like the messaging bundle it is currently
-  looking for an active maintainer. Alternatively, use external providers such as [Disqus](https://disqus.com/websites).
-- [FOSRestBundle](https://github.com/FriendsOfSymfony/FOSRestBundle), one of the best libraries for creating RESTful
-  APIs in Symfony2. This bundle will be wasted if you don't know the importance of REST when building APIs though,
-  therefore I suggest reading [Building APIs You Won't Hate](https://leanpub.com/build-apis-you-wont-hate) by [Phil
-  Sturgeon](https://philsturgeon.uk/) (there is a copy of it in the office).
-- [FOSElasticaBundle](https://github.com/FriendsOfSymfony/FOSElasticaBundle), for integration of
-  [Elasticsearch](http://www.elasticsearch.org/) in Symfony2. If client work will require fairly intensive search
-  capabilities and will be deployed on a dedicated or virtualised server then Elasticsearch is the way to go.
+- [FOSUserBundle](https://github.com/FriendsOfSymfony/FOSUserBundle "FOS\UserBundle\FOSUserBundle"), the complete
+  back-end for user functionality (login, registration, profiles, forgot password, user groups etc).
+- [FOSMessageBundle](https://github.com/FriendsOfSymfony/FOSMessageBundle "FOS\MessageBundle\FOSMessageBundle"),
+  messaging component featuring threaded conversations, spam detection, soft-deletion, message permissions, user inbox,
+  etc. The only downside is that this bundle is currently looking for a new active maintainer.
+- [FOSCommentBundle](https://github.com/FriendsOfSymfony/FOSCommentBundle "FOS\CommentBundle\FOSCommentBundle"), adds
+  support for a threaded comment system. It gets a mention because it could be useful in a future project, but just like
+  the messaging bundle it is currently looking for an active maintainer. Alternatively, use external providers such as
+  [Disqus](https://disqus.com/websites "Disqus: building communities for websites").
+- [FOSRestBundle](https://github.com/FriendsOfSymfony/FOSRestBundle "FOS\RestBundle\FOSRestBundle"), one of the best
+  libraries for creating RESTful APIs in Symfony2. This bundle will be wasted if you don't know the importance of REST
+  when building APIs though, therefore I suggest reading [Building APIs You Won't
+  Hate](https://leanpub.com/build-apis-you-wont-hate) by [Phil
+  Sturgeon](https://philsturgeon.uk "Phil Sturgeon: PHP community badass") (there is a copy of it in the office).
+- [FOSElasticaBundle](https://github.com/FriendsOfSymfony/FOSElasticaBundle "FOS\ElasticaBundle\FOSElasticaBundle"), for
+  integration of [Elasticsearch](http://www.elasticsearch.org "Open Source Distributed Real Time Search & Analytics") in
+  Symfony2. If client work will require fairly intensive search capabilities and will be deployed on a dedicated or
+  virtualised server then Elasticsearch is the way to go.
 
 ## [JMS](http://jmsyst.com) (Johannes Schmitt)
 
-- [JMSI18nRoutingBundle](http://jmsyst.com/bundles/JMSI18nRoutingBundle), allows you to create I18n
-  (internationalisation) routes for your application. Meaning you can have different URLs (even domains) for different
-  locales (languages/countries) that point to the same controller/action but changes the internal content `_locale`
-  setting accordingly.
-- [JMSTranslationBundle](http://jmsyst.com/bundles/JMSTranslationBundle), adds functionality that is geared towards
-  content translators rather than developers, such as optimised message search algorithms, and a web-based interface to
-  search, add and update messages in the application for any language that the application specifies it caters for.
-- [JMSJobQueueBundle](http://jmsyst.com/bundles/JMSJobQueueBundle), allows you to schedule console commands as
-  server-side jobs, including concurrent job execution, multiple queues, dependencies between jobs, and retry logic.
+- [JMSI18nRoutingBundle](http://jmsyst.com/bundles/JMSI18nRoutingBundle "JMS\I18nRoutingBundle\JMSI18nRoutingBundle"),
+  allows you to create I18n (internationalisation) routes for your application. Meaning you can have different URLs
+  (even domains) for different locales (languages/countries) that point to the same controller/action but changes the
+  internal `_locale` setting accordingly.
+- [JMSTranslationBundle](http://jmsyst.com/bundles/JMSTranslationBundle "JMS\TranslationBundle\TranslationBundle"), adds
+  functionality that is geared towards content translators rather than developers, such as optimised message search
+  algorithms, and a web-based interface to search, add and update messages in the application for any language that the
+  application specifies it caters for.
+- [JMSJobQueueBundle](http://jmsyst.com/bundles/JMSJobQueueBundle "JMS\JobQueueBundle\JMSJobQueueBundle"), allows you to
+  schedule console commands as server-side jobs, including concurrent job execution, multiple queues, dependencies
+  between jobs, and retry logic.
 
 ## [Sonata Project](http://sonata-project.org)
 
