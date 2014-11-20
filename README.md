@@ -8,7 +8,7 @@ to.
 
 - If a particular vendor is found to provide more than one potentially useful *project*, list the projects under a
   document section of that vendor.
-<!-- - If a project is a bundle acting as an adapter for another library you should list both in the same entry unless the bundle and library are provided by the same vendor. -->
+- If a project is a bundle acting as an adapter for another library then just list the bundle project.
 - Do not list any bundles that are included by default in the Symfony
   [standard edition](https://github.com/symfony/symfony-standard).
 
