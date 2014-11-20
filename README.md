@@ -37,8 +37,8 @@ The unofficial vendor for extending Symfony2 functionality.
   looking for an active maintainer.
 - [FOSRestBundle](https://github.com/FriendsOfSymfony/FOSRestBundle), one of the best libraries for creating RESTful
   APIs in Symfony2. This bundle will be wasted if you don't know the importance of REST when building APIs though,
-  therefore I suggest reading [Building APIs You Won't Hate](https://leanpub.com/build-apis-you-wont-hate) by
-  [Phil Sturgeon](https://philsturgeon.uk/) (there is a copy of it in the office).
+  therefore I suggest reading [Building APIs You Won't Hate](https://leanpub.com/build-apis-you-wont-hate) by [Phil
+  Sturgeon](https://philsturgeon.uk/) (there is a copy of it in the office).
 - [FOSElasticaBundle](https://github.com/FriendsOfSymfony/FOSElasticaBundle), for integration of
   [Elasticsearch](http://www.elasticsearch.org/) in Symfony2. If client work will require fairly intensive search
   capabilities and will be deployed on a dedicated or virtualised server then Elasticsearch is the way to go.
@@ -75,8 +75,8 @@ The unofficial vendor for extending Symfony2 functionality.
 ## [Sylius](http://sylius.org)
 
 Sylius is an open-source project to build an e-commerce system in Symfony2; since it is decoupled, all functionality is
-split up into individual, plug-and-play bundles to be dropped into any Symfony2 project. Documentation for the
-[full list of bundles](http://docs.sylius.org/en/latest/bundles/index.html) is also available.
+split up into individual, plug-and-play bundles to be dropped into any Symfony2 project. Documentation for the [full
+list of bundles](http://docs.sylius.org/en/latest/bundles/index.html) is also available.
 
 All bundles by Sylius are Symfony2 adapters for the extensive list of e-commerce libraries created by the same vendor,
 Sylius. Although all of them are potentially useful for an e-commerce project, some noteworthy ones are:
@@ -111,19 +111,11 @@ understand most of it as I've just scratched the surface - but enough to underst
 
 ... That's best way I can describe it.
 
-> Symfony CMF is affliliated, but not written, by the creators of Symfony. They project is actually by a
-> [company in Switzerland](http://www.liip.ch/en).
+> Symfony CMF is affliliated, but not written, by the creators of Symfony. The project is actually by a [company in
+> Switzerland](http://www.liip.ch/en).
 
-# Other Libraries
+# Misc. Vendors
 
-- [php-github-api](https://github.com/KnpLabs/php-github-api) by [KnpLabs](https://github.com/knplabs), a tested and
-  documented, simple, object-orientated GitHub API client for PHP 5.3+
-- [Retry](https://github.com/igorw/retry) by [Igor](https://github.com/igorw), a tiny library for retrying failing
-  operations.
-- [Stringy](https://github.com/danielstjules/Stringy) by [Daniel St. Jules](https://github.com/danielstjules), a PHP
-  string manipulation library with multibyte support.
-- [UUID](https://github.com/ramsey/uuid) by [Ben Ramsey](https://github.com/ramsey), a library for generating RFC 4122
-  (version 1, 3, 4, and 5) universally unique identifiers in PHP 5.3+
 - [Guzzle](https://github.com/guzzle/guzzle) by [Jeremy Lindblom](https://github.com/jeremeamia) and
   [Michael Dowling](https://github.com/mtdowling), a PHP HTTP client and framework for building RESTful web service
   clients.
@@ -134,7 +126,20 @@ understand most of it as I've just scratched the surface - but enough to underst
 - [SncRedisBundle](https://github.com/snc/SncRedisBundle) by [Henrik Westphal](https://github.com/snc), integrate
   [Redis](http://redis.io) support into Symfony2 via [Predis](https://github.com/nrk/predis) or
   [PhpRedis](https://github.com/nicolasff/phpredis).
-- [DNS](https://github.com/hoaproject/Dns) by [HOA Project](http://hoa-project.net/En), library to create a domain name
-  resolver in PHP.
 - [Parsedown](https://github.com/erusev/parsedown) and [Parsedown Extra](https://github.com/erusev/parsedown-extra) by
   [Emanuil Rusev](https://github.com/erusev), a better Markdown parser in PHP.
+
+## Other Libraries
+
+Useful or interesting, but not as important.
+
+- [Retry](https://github.com/igorw/retry) by [Igor](https://github.com/igorw), a tiny library for retrying failing
+  operations.
+- [Stringy](https://github.com/danielstjules/Stringy) by [Daniel St. Jules](https://github.com/danielstjules), a PHP
+  string manipulation library with multibyte support.
+- [UUID](https://github.com/ramsey/uuid) by [Ben Ramsey](https://github.com/ramsey), a library for generating RFC 4122
+  (version 1, 3, 4, and 5) universally unique identifiers in PHP 5.3+
+- [DNS](https://github.com/hoaproject/Dns) by [HOA Project](http://hoa-project.net/En), library to create a domain name
+  resolver in PHP.
+- [php-github-api](https://github.com/KnpLabs/php-github-api) by [KnpLabs](https://github.com/knplabs), a tested and
+  documented, simple (yet comprehensive), object-orientated GitHub API client for PHP 5.3+
