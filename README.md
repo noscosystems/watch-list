@@ -12,7 +12,7 @@ to.
 - Do not list any bundles that are included by default in the Symfony
   [standard edition](https://github.com/symfony/symfony-standard).
 
-## Doctrine
+## [Doctrine Project](http://www.doctrine-project.org)
 
 The number one vendor in the PHP community for libraries that deal with data; persistence, specification, cache, etc.
 Doctrine is pretty well integrated into the Symfony standard edition already, however the following bundles are always
@@ -24,7 +24,7 @@ helpful for dealing with database development:
   programmatically. This data can be used for testing or could be the initial data required for the application to run
   smoothly, defined in code just like database structure is defined in migrations.
 
-## Friends of Symfony
+## [Friends of Symfony](http://friendsofsymfony.github.io)
 
 The unofficial vendor for extending Symfony2 functionality.
 
@@ -43,7 +43,7 @@ The unofficial vendor for extending Symfony2 functionality.
   [Elasticsearch](http://www.elasticsearch.org/) in Symfony2. If client work will require fairly intensive search
   capabilities and will be deployed on a dedicated or virtualised server then Elasticsearch is the way to go.
 
-## JMS (Johannes Schmitt)
+## [JMS](http://jmsyst.com) (Johannes Schmitt)
 
 - [JMSI18nRoutingBundle](http://jmsyst.com/bundles/JMSI18nRoutingBundle), allows you to create I18n
   (internationalisation) routes for your application. Meaning you can have different URLs (even domains) for different
@@ -55,7 +55,7 @@ The unofficial vendor for extending Symfony2 functionality.
 - [JMSJobQueueBundle](http://jmsyst.com/bundles/JMSJobQueueBundle), allows you to schedule console commands as
   server-side jobs, including concurrent job execution, multiple queues, dependencies between jobs, and retry logic.
 
-## Sonata Project
+## [Sonata Project](http://sonata-project.org)
 
 - [SonataNotificationBundle](http://sonata-project.org/bundles/notification), generate messages which can be retrieved
   by a generic backend and processed by specific actions - think an advanced version of *Chaser Actions*, more alike to
@@ -72,7 +72,7 @@ The unofficial vendor for extending Symfony2 functionality.
   interact with a content repository. I've included this because it may be a quick way to implement admin CRUD
   operations, but it does seem overly complex.
 
-## Sylius
+## [Sylius](http://sylius.org)
 
 Sylius is an open-source project to build an e-commerce system in Symfony2; since it is decoupled, all functionality is
 split up into individual, plug-and-play bundles to be dropped into any Symfony2 project. Documentation for the
