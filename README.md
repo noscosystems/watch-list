@@ -13,6 +13,12 @@ to.
   [standard edition](https://github.com/symfony/symfony-standard "A fully-functional Symfony2 application to be used as
   the skeleton for new applications").
 
+# Online Resources
+
+- [Friends of Symfony](http://friendsofsymfony.github.io) have made a slideshow with lots of useful information called
+  [There is a Bundle for that](http://friendsofsymfony.github.io/slides/there_is_a_bundle_for_that.html "by Lukas Kahwe
+  Smith on October 31th, 2014").
+
 ## [Doctrine Project](http://www.doctrine-project.org "Home to several PHP libraries primarily focused on database storage and object mapping")
 
 The number one vendor in the PHP community for libraries that deal with data; persistence, specification, cache, etc.
@@ -150,3 +156,17 @@ Useful or interesting, but not as important.
   resolver in PHP.
 - [php-github-api](https://github.com/KnpLabs/php-github-api) by [KnpLabs](https://github.com/knplabs), a tested and
   documented, simple (yet comprehensive), object-orientated GitHub API client for PHP 5.3+
+
+## Unchecked Libraries
+
+Look promising from the project summaries, but haven't read up on them at all.
+
+- [StofDoctrineExtensionsBundle](https://github.com/stof/StofDoctrineExtensionsBundle "Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle"),
+  extensions for Doctrine including Translatable, Sluggable, Tree-NestedSet, Timestampable, Loggable, Sortable, etc.
+- [FOSJsRoutingBundle](https://github.com/FriendsOfSymfony/FOSJsRoutingBundle "FOS\JsRoutingBundle\FOSJsRoutingBundle"),
+  allows you to expose your routing in your JavaScript code. That means you'll be able to generate URL with given
+  parameters like you can do with the Router component provided in the Symfony2 core.
+- [SonataMediaBundle](https://github.com/sonata-project/SonataMediaBundle "Sonata\MediaBundle\SonataMediaBundle"), a
+  media library based on a dedicated `provider` which handles different type of media: files, videos or images.
+- [NelmioApiDocBundle](https://github.com/nelmio/NelmioApiDocBundle "Nelmio\ApiDocBundle\NelmioApiDocBundle"), generates
+  documentation for your REST API from annotations.
